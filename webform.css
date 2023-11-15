@@ -108,11 +108,8 @@ legend {
 @media screen and (max-width: 400px) {
 
     body {
-      float: none;
-      width: 100%;
+      display: flex;
+      flex-direction: column;
     }
-    .header > h1 {
-        display: flex;
-        font-size: 2.5rem;
-      }
+
 }
